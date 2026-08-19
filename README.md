@@ -1,2 +1,2 @@
-# Ecommerce-customer-retention-analysis
+# Ecommerce Customer Cohort & Retention
 SQL and Tableau analysis of e-commerce customer retention, cohorts, repeat purchases, and churn.
