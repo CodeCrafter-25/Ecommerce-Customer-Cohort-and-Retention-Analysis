@@ -1,1 +1,17 @@
+# Operating system files
+.DS_Store
+Thumbs.db
 
+# Editor settings
+.vscode/
+.idea/
+*.swp
+
+# Temporary and backup files
+*.tmp
+*.log
+*.bak
+~$*
+
+# Tableau extract files
+*.hyper
