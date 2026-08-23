@@ -2,7 +2,7 @@
 
 **Status:** In Progress  
 **Current Phase:** Planning and dataset selection  
-**Last Updated:** August 22, 2026
+**Last Updated:** August 23, 2026
 
 ## Completed
 
@@ -11,11 +11,13 @@
 - [x] Defined the project objective
 - [x] Defined the business questions
 - [x] Defined the planned retention metrics
+- [x] Configure the `.gitignore` file
+- [x] Select an ecommerce transaction dataset
+- [x] Document the dataset source and columns
+
 
 ## Current Tasks
 
-- [ ] Configure the `.gitignore` file
-- [ ] Select an ecommerce transaction dataset
 - [ ] Review the dataset structure and data quality
 - [ ] Document the dataset source and columns
 
