@@ -1,8 +1,8 @@
 # Project Status — Ecommerce Customer Cohort & Retention
 
 **Status:** In Progress  
-**Current Phase:** Planning and dataset selection  
-**Last Updated:** August 23, 2026
+**Current Phase:** Dataset review and preparation
+**Last Updated:** August 24, 2026
 
 ## Completed
 
@@ -19,7 +19,6 @@
 ## Current Tasks
 
 - [ ] Review the dataset structure and data quality
-- [ ] Document the dataset source and columns
 
 ## Planned Work
 
