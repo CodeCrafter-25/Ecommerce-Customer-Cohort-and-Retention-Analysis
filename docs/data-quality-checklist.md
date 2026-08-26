@@ -1,28 +1,28 @@
 # Data Quality Checklist
 
 **Dataset:** Online Retail II  
-**Review Status:** Planned  
+**Review Status:** In Progress  
 **Source File:** `online_retail_II.xlsx`
 
 ## File Structure
 
-- [ ] Confirm that the Excel file opens correctly
-- [ ] Record the workbook sheet names
+- [x] Confirm that the Excel file opens correctly
+- [x] Record the workbook sheet names
 - [ ] Count rows in each sheet
 - [ ] Calculate the total number of rows
-- [ ] Confirm that all required columns are present
+- [x] Confirm that all required columns are present
 - [ ] Confirm the minimum and maximum transaction dates
 
 ## Required Columns
 
-- [ ] `InvoiceNo`
-- [ ] `StockCode`
-- [ ] `Description`
-- [ ] `Quantity`
-- [ ] `InvoiceDate`
-- [ ] `UnitPrice`
-- [ ] `CustomerID`
-- [ ] `Country`
+- [x] `Invoice`
+- [x] `StockCode`
+- [x] `Description`
+- [x] `Quantity`
+- [x] `InvoiceDate`
+- [x] `Price`
+- [x] `Customer ID`
+- [x] `Country`
 
 ## Data Quality Checks
 
@@ -39,18 +39,25 @@
 
 ## Review Results
 
-| Metric | Result |
-|---|---:|
-| Total rows | Pending |
-| Unique customers | Pending |
-| Unique invoices | Pending |
-| Missing CustomerID | Pending |
-| Cancelled transactions | Pending |
-| Zero or negative quantity | Pending |
+|              Metric         | Result  |
+|-----------------------------|---------|
+| Total rows                  | Pending |
+| Unique customers            | Pending |
+| Unique invoices             | Pending |
+| Missing CustomerID          | Pending |
+| Cancelled transactions      | Pending |
+| Zero or negative quantity   | Pending |
 | Zero or negative unit price | Pending |
-| Duplicate rows | Pending |
-| Minimum transaction date | Pending |
-| Maximum transaction date | Pending |
+| Duplicate rows              | Pending |
+| Minimum transaction date    | Pending |
+| Maximum transaction date    | Pending |
+
+## Workbook Sheets
+
+|      Sheet       |   Status  |
+|------------------|-----------|
+| `Year 2009-2010` | Available |
+| `Year 2010-2011` | Available |
 
 ## Planned Cleaning Rules
 
