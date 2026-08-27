@@ -4,17 +4,17 @@
 **Review Status:** In Progress  
 **Source File:** `online_retail_II.xlsx`
 
-## File Structure
 
+## File Structure
 - [x] Confirm that the Excel file opens correctly
 - [x] Record the workbook sheet names
-- [ ] Count rows in each sheet
-- [ ] Calculate the total number of rows
+- [x] Count rows in each sheet
+- [x] Calculate the total number of rows
 - [x] Confirm that all required columns are present
-- [ ] Confirm the minimum and maximum transaction dates
+- [x] Confirm the minimum and maximum transaction dates
+
 
 ## Required Columns
-
 - [x] `Invoice`
 - [x] `StockCode`
 - [x] `Description`
@@ -24,8 +24,8 @@
 - [x] `Customer ID`
 - [x] `Country`
 
-## Data Quality Checks
 
+## Data Quality Checks
 - [ ] Count missing `CustomerID` values
 - [ ] Count missing product descriptions
 - [ ] Count cancelled invoices starting with `C`
@@ -37,31 +37,35 @@
 - [ ] Count unique invoices
 - [ ] Review the list of countries
 
+
 ## Review Results
 
-|              Metric         | Result  |
-|-----------------------------|---------|
-| Total rows                  | Pending |
-| Unique customers            | Pending |
-| Unique invoices             | Pending |
-| Missing CustomerID          | Pending |
-| Cancelled transactions      | Pending |
-| Zero or negative quantity   | Pending |
-| Zero or negative unit price | Pending |
-| Duplicate rows              | Pending |
-| Minimum transaction date    | Pending |
-| Maximum transaction date    | Pending |
+|              Metric         |   Result         |
+|-----------------------------|------------------|
+| Total rows                  | 1 067 371        |
+| Unique customers            | Pending          |
+| Unique invoices             | Pending          |
+| Missing CustomerID          | Pending          |
+| Cancelled transactions      | Pending          |
+| Zero or negative quantity   | Pending          |
+| Zero or negative unit price | Pending          |
+| Duplicate rows              | Pending          |
+| Minimum transaction date    | 01.12.2009 07:45 |
+| Maximum transaction date    | 09.12.2011 12:50 |
+
 
 ## Workbook Sheets
 
-|      Sheet       |   Status  |
-|------------------|-----------|
-| `Year 2009-2010` | Available |
-| `Year 2010-2011` | Available |
+|       Sheet      |         Rows           |     Minimum Date    |    Maximum Date     |
+|------------------|------------------------|---------------------|---------------------|
+| `Year 2009-2010` | 525461                 | 01.12.2009 07:45    | 09.12.2010 20:01    |
+| `Year 2010-2011` | 541910                 | 01.12.2010 08:46    | 09.12.2011 12:50    |
+| **Total**        | **1 067 371**          | **01.12.2009 07:45**| **09.12.2011 12:50**|
+
 
 ## Planned Cleaning Rules
 
-The cleaned dataset should:
+**The cleaned dataset should:**
 
 - exclude records without `CustomerID`;
 - exclude cancelled invoices;
