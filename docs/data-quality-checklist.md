@@ -12,7 +12,8 @@
 - [x] Calculate the total number of rows
 - [x] Confirm that all required columns are present
 - [x] Confirm the minimum and maximum transaction dates
-
+- [x] Count missing `CustomerID` values
+- [x] Count missing product descriptions
 
 ## Required Columns
 - [x] `Invoice`
@@ -26,8 +27,7 @@
 
 
 ## Data Quality Checks
-- [ ] Count missing `CustomerID` values
-- [ ] Count missing product descriptions
+
 - [ ] Count cancelled invoices starting with `C`
 - [ ] Count records with zero or negative `Quantity`
 - [ ] Count records with zero or negative `UnitPrice`
@@ -40,18 +40,19 @@
 
 ## Review Results
 
-|              Metric         |   Result         |
-|-----------------------------|------------------|
-| Total rows                  | 1 067 371        |
-| Unique customers            | Pending          |
-| Unique invoices             | Pending          |
-| Missing CustomerID          | Pending          |
-| Cancelled transactions      | Pending          |
-| Zero or negative quantity   | Pending          |
-| Zero or negative unit price | Pending          |
-| Duplicate rows              | Pending          |
-| Minimum transaction date    | 01.12.2009 07:45 |
-| Maximum transaction date    | 09.12.2011 12:50 |
+|              Metric          |   Result         |
+|------------------------------|------------------|
+| Total rows                   | 1 067 371        |
+| Unique customers             | Pending          |
+| Unique invoices              | Pending          |
+| Missing Customer ID          | 243 007          |
+| Missing product descriptions | 4 382            |
+| Cancelled transactions       | Pending          |
+| Zero or negative quantity    | Pending          |
+| Zero or negative unit price  | Pending          |
+| Duplicate rows               | Pending          |
+| Minimum transaction date     | 01.12.2009 07:45 |
+| Maximum transaction date     | 09.12.2011 12:50 |
 
 
 ## Workbook Sheets
@@ -67,12 +68,12 @@
 
 **The cleaned dataset should:**
 
-- exclude records without `CustomerID`;
+- exclude records without `Customer ID`;
 - exclude cancelled invoices;
 - exclude zero or negative quantities;
 - exclude zero or negative prices;
 - remove duplicate rows;
 - preserve valid transaction dates;
-- calculate revenue as `Quantity × UnitPrice`.
+- calculate revenue as `Quantity × Price`.
 
 The final cleaning rules will be confirmed after the initial data review.
