@@ -12,8 +12,7 @@
 - [x] Calculate the total number of rows
 - [x] Confirm that all required columns are present
 - [x] Confirm the minimum and maximum transaction dates
-- [x] Count missing `CustomerID` values
-- [x] Count missing product descriptions
+
 
 ## Required Columns
 - [x] `Invoice`
@@ -30,12 +29,14 @@
 
 - [ ] Count cancelled invoices starting with `C`
 - [ ] Count records with zero or negative `Quantity`
-- [ ] Count records with zero or negative `UnitPrice`
+- [ ] Count records with zero or negative `Price`
 - [ ] Check for duplicate rows
 - [ ] Check for missing or invalid transaction dates
 - [ ] Count unique customers
 - [ ] Count unique invoices
 - [ ] Review the list of countries
+- [x] Count missing `Customer ID` values
+- [x] Count missing product descriptions
 
 
 ## Review Results
@@ -49,7 +50,7 @@
 | Missing product descriptions | 4 382            |
 | Cancelled transactions       | Pending          |
 | Zero or negative quantity    | Pending          |
-| Zero or negative unit price  | Pending          |
+| Zero or negative price       | Pending          |
 | Duplicate rows               | Pending          |
 | Minimum transaction date     | 01.12.2009 07:45 |
 | Maximum transaction date     | 09.12.2011 12:50 |
