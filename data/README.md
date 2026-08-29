@@ -13,26 +13,25 @@
 - **Period:** December 1, 2009 – December 9, 2011
 
 ## Description
-
 Online Retail II contains real transaction data from a UK-based non-store online retailer. The dataset covers two years of customer purchases and is suitable for customer cohort, retention, repeat purchase, and revenue analysis.
 
 ## Main Columns
 
-| Column | Description |
-|---|---|
-| `InvoiceNo` | Unique invoice number. Values starting with `C` represent cancellations. |
-| `StockCode` | Unique product code. |
-| `Description` | Product name. |
-| `Quantity` | Number of purchased product units. |
-| `InvoiceDate` | Date and time of the transaction. |
-| `UnitPrice` | Product price per unit in pounds sterling. |
-| `CustomerID` | Unique customer identifier. |
-| `Country` | Customer’s country of residence. |
+|     Column    |                                 Description                              |
+|---------------|--------------------------------------------------------------------------|
+| `Invoice`     | Unique invoice number. Values starting with `C` represent cancellations. |
+| `StockCode`   | Unique product code.                                                     |
+| `Description` | Product name.                                                            |
+| `Quantity`    | Number of purchased product units.                                       |
+| `InvoiceDate` | Date and time of the transaction.                                        |
+| `Price`       | Product price per unit in pounds sterling.                               |
+| `Customer ID` | Unique customer identifier.                                              |
+| `Country`     | Customer’s country of residence.                                         |
+
 
 ## Planned Use
 
-The dataset will be used to:
-
+**The dataset will be used to:**
 - identify each customer’s first purchase month;
 - create monthly customer cohorts;
 - calculate cohort size;
@@ -42,19 +41,15 @@ The dataset will be used to:
 - calculate the time between the first and second purchase.
 
 ## Data Quality Notes
-
-The initial data review should include:
-
-- missing `CustomerID` values;
+**The initial data review should include:**
+- missing `Customer ID` values;
 - cancelled transactions;
 - zero or negative quantities;
 - zero or negative prices;
 - duplicate records;
 - invalid transaction dates.
 
-Revenue will be calculated as:
-
-`Revenue = Quantity × UnitPrice`
+**Revenue will be calculated as:** *`Revenue = Quantity × Price`*
 
 ## Repository Storage
 
