@@ -27,8 +27,8 @@
 
 ## Data Quality Checks
 
-- [ ] Count cancelled invoices starting with `C`
-- [ ] Count records with zero or negative `Quantity`
+- [x] Count cancelled invoices starting with `C`
+- [x] Count records with zero or negative `Quantity`
 - [ ] Count records with zero or negative `Price`
 - [ ] Check for duplicate rows
 - [ ] Check for missing or invalid transaction dates
@@ -48,8 +48,8 @@
 | Unique invoices              | Pending          |
 | Missing Customer ID          | 243 007          |
 | Missing product descriptions | 4 382            |
-| Cancelled transactions       | Pending          |
-| Zero or negative quantity    | Pending          |
+| Cancelled transactions       | 19 494           |
+| Zero or negative quantity    | 22 950           |
 | Zero or negative price       | Pending          |
 | Duplicate rows               | Pending          |
 | Minimum transaction date     | 01.12.2009 07:45 |
