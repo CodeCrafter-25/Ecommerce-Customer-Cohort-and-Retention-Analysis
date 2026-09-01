@@ -29,7 +29,7 @@
 
 - [x] Count cancelled invoices starting with `C`
 - [x] Count records with zero or negative `Quantity`
-- [ ] Count records with zero or negative `Price`
+- [x] Count records with zero or negative `Price`
 - [ ] Check for duplicate rows
 - [ ] Check for missing or invalid transaction dates
 - [ ] Count unique customers
@@ -50,7 +50,7 @@
 | Missing product descriptions | 4 382            |
 | Cancelled transactions       | 19 494           |
 | Zero or negative quantity    | 22 950           |
-| Zero or negative price       | Pending          |
+| Zero or negative price       | 6 207            |
 | Duplicate rows               | Pending          |
 | Minimum transaction date     | 01.12.2009 07:45 |
 | Maximum transaction date     | 09.12.2011 12:50 |
