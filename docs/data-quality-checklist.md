@@ -37,6 +37,7 @@
 - [ ] Review the list of countries
 - [x] Count missing `Customer ID` values
 - [x] Count missing product descriptions
+> The remaining data quality checks will be completed in BigQuery after combining both workbook sheets.
 
 
 ## Review Results
