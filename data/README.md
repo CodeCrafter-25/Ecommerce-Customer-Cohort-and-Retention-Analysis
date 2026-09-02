@@ -51,6 +51,14 @@ Online Retail II contains real transaction data from a UK-based non-store online
 
 **Revenue will be calculated as:** *`Revenue = Quantity × Price`*
 
+## Prepared Files
+**The original Excel workbook was divided into two CSV files for loading into BigQuery:**
+- `online_retail_2009_2010.csv`
+- `online_retail_2010_2011.csv`
+
+The files preserve the original workbook structure and column names. They will be combined in BigQuery before completing the remaining data quality checks.
+
+
 ## Repository Storage
 
 The original Excel file is not stored in this repository because of its size. It can be downloaded from the official UCI Machine Learning Repository using the source link above.
