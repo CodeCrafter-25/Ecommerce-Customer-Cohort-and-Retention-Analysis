@@ -2,7 +2,7 @@
 
 **Status:** In Progress  
 **Current Phase:** Dataset review and preparation
-**Last Updated:** September 1, 2026
+**Last Updated:** September 2, 2026
 
 ## Completed
 
@@ -18,6 +18,7 @@
 ## Current Tasks
 
 - [ ] Review the dataset structure and data quality
+- [ ] Import both CSV files into BigQuery
 
 ## Planned Work
 
