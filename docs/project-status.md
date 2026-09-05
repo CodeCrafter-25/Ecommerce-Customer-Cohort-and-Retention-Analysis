@@ -1,8 +1,8 @@
 # Project Status — Ecommerce Customer Cohort & Retention
 
 **Status:** In Progress  
-**Current Phase:** Dataset review and preparation
-**Last Updated:** September 4, 2026
+**Current Phase:** Data integration and quality review
+**Last Updated:** September 5, 2026
 
 ## Completed
 
@@ -13,7 +13,9 @@
 - [x] Defined the planned retention metrics;
 - [x] Configure the `.gitignore` file;
 - [x] Select an ecommerce transaction dataset;
-- [x] Document the dataset source and columns.
+- [x] Document the dataset source and columns;
+- [x] Import both CSV files into BigQuery;
+- [x] Combine the raw BigQuery tables.
 
 ## Current Tasks
 
