@@ -1,8 +1,8 @@
 # Project Status — Ecommerce Customer Cohort & Retention
 
 **Status:** In Progress  
-**Current Phase:** Data integration and quality review
-**Last Updated:** September 5, 2026
+**Current Phase:** Raw data profiling and quality review
+**Last Updated:** September 6, 2026
 
 ## Completed
 
