@@ -41,3 +41,46 @@ SELECT
 
 FROM
   `bright-gearbox-402817.ecommerce_retention.online_retail_raw`;
+
+
+-- duplicate check
+WITH row_counts AS (
+  SELECT
+    invoice,
+    stock_code,
+    description,
+    quantity,
+    invoice_date,
+    price,
+    customer_id,
+    country,
+    COUNT(*) AS row_count
+  FROM
+    `bright-gearbox-402817.ecommerce_retention.online_retail_raw`
+  GROUP BY
+    invoice,
+    stock_code,
+    description,
+    quantity,
+    invoice_date,
+    price,
+    customer_id,
+    country
+)
+
+SELECT
+  COUNTIF(row_count > 1) AS duplicated_combinations,
+  SUM(
+    IF(row_count > 1, row_count - 1, 0)
+  ) AS duplicate_rows_to_remove
+FROM
+  row_counts;
+
+-- Checking date format
+SELECT DISTINCT
+  invoice_date
+FROM
+  `bright-gearbox-402817.ecommerce_retention.online_retail_raw`
+WHERE
+  NULLIF(TRIM(invoice_date), '') IS NOT NULL
+LIMIT 20;
