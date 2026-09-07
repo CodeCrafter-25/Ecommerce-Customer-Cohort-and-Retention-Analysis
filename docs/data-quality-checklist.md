@@ -45,16 +45,20 @@
 |              Metric          |   Result         |
 |------------------------------|------------------|
 | Total rows                   | 1 067 371        |
-| Unique customers             | Pending          |
-| Unique invoices              | Pending          |
+| Unique customers             | 5 942            |
+| Unique invoices              | 53 628           |
+| Unique countries             | 43               |
 | Missing Customer ID          | 243 007          |
 | Missing product descriptions | 4 382            |
 | Cancelled transactions       | 19 494           |
 | Zero or negative quantity    | 22 950           |
 | Zero or negative price       | 6 207            |
-| Duplicate rows               | Pending          |
+| Duplicate rows               | 12 133           |
 | Minimum transaction date     | 01.12.2009 07:45 |
 | Maximum transaction date     | 09.12.2011 12:50 |
+| Missing invoice dates        | 0                |
+| Invalid quantity             | 0                |
+| Invalid price                | 0                |
 
 
 ## Workbook Sheets
