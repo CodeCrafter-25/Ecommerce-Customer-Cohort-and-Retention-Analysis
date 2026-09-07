@@ -84,3 +84,34 @@ FROM
 WHERE
   NULLIF(TRIM(invoice_date), '') IS NOT NULL
 LIMIT 20;
+
+
+SELECT
+  COUNTIF(
+    NULLIF(TRIM(invoice_date), '') IS NOT NULL
+    AND SAFE.PARSE_DATETIME(
+      '%d.%m.%Y %H:%M',
+      TRIM(invoice_date)
+    ) IS NULL
+  ) AS invalid_invoice_date,
+
+  MIN(
+    SAFE.PARSE_DATETIME(
+      '%d.%m.%Y %H:%M',
+      TRIM(invoice_date)
+    )
+  ) AS minimum_invoice_datetime,
+
+  MAX(
+    SAFE.PARSE_DATETIME(
+      '%d.%m.%Y %H:%M',
+      TRIM(invoice_date)
+    )
+  ) AS maximum_invoice_datetime
+
+FROM
+  `bright-gearbox-402817.ecommerce_retention.online_retail_raw`;
+
+-- | Row | invalid_invoice_date	| minimum_invoice_datetime | maximum_invoice_datetime |
+-- |-----|----------------------|--------------------------|--------------------------|
+-- | 1   | 541910               | 2009-12-01T07:45:00      | 2010-12-09T20:01:00      |
