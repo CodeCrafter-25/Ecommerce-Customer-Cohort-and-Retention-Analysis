@@ -83,3 +83,27 @@
 - calculate revenue as `Quantity × Price`.
 
 The final cleaning rules will be confirmed after the initial data review.
+
+
+## Final Cleaning Results
+
+| Metric | Result |
+|---|---:|
+| Raw rows | 1,067,371 |
+| Clean rows | 779,425 |
+| Removed rows | 287,946 |
+| Data retained | 73.02% |
+| Minimum transaction date | 2009-12-01 07:45:00 |
+| Maximum transaction date | 2011-12-09 12:50:00 |
+| Remaining quality issues | 0 |
+| Remaining duplicate rows | 0 |
+
+## Transformation Notes
+- The `2009_2010` source stored transaction dates as `DD.MM.YYYY HH:MM`.
+- The `2010_2011` source stored transaction dates as Excel serial numbers.
+- Both date formats were converted to a common `DATETIME` format.
+- The source files overlapped during December 1–9, 2010.
+- Duplicate transaction lines across the overlapping periods were removed.
+- Records without a customer identifier were excluded.
+- Cancelled invoices and transactions with non-positive quantity or price were excluded.
+- Revenue was calculated as `quantity × unit_price`.
