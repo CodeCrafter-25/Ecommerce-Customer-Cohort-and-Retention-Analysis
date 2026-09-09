@@ -1,8 +1,8 @@
 # Project Status — Ecommerce Customer Cohort & Retention
 
 **Status:** In Progress  
-**Current Phase:** Data cleaning and validation   
-**Last Updated:** September 8, 2026
+**Current Phase:** Cohort analysis preparation
+**Last Updated:** September 9, 2026
 
 ## Completed
 
@@ -15,7 +15,9 @@
 - [x] Select an ecommerce transaction dataset;
 - [x] Document the dataset source and columns;
 - [x] Import both CSV files into BigQuery;
-- [x] Combine the raw BigQuery tables.
+- [x] Combine the raw BigQuery tables;
+- [x] Review the dataset structure and data quality;
+- [x] Clean and validate the dataset.
 
 ## Current Tasks
 
@@ -24,8 +26,7 @@
 - [x] Import the 2010–2011 CSV file into BigQuery.
 
 ## Planned Work
-
-- [x] Clean and validate the dataset;
+- [ ] Create the customer cohort base table;
 - [ ] Create SQL queries for customer cohorts;
 - [ ] Calculate monthly customer retention;
 - [ ] Calculate repeat purchase metrics;
