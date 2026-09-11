@@ -18,7 +18,9 @@
 - [x] Combine the raw BigQuery tables;
 - [x] Review the dataset structure and data quality;
 - [x] Clean and validate the dataset;
-- [x] Create the customer cohort base table.
+- [x] Create the customer cohort base table;
+- [x] Calculate monthly cohort retention.
+
 ## Current Tasks
 
 - [x] Review the dataset structure and data quality;
@@ -27,7 +29,7 @@
 
 ## Planned Work
 
-- [ ] Calculate monthly cohort retention
+
 - [ ] Create SQL queries for customer cohorts;
 - [ ] Calculate monthly customer retention;
 - [ ] Calculate repeat purchase metrics;
