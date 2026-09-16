@@ -1,8 +1,8 @@
 # Project Status — Ecommerce Customer Cohort & Retention
 
 **Status:** In Progress  
-**Current Phase:** Revenue by cohort analysis   
-**Last Updated:** September 15, 2026  
+**Current Phase:** Tableau data preparation  
+**Last Updated:** September 16, 2026  
 
 ## Completed
 - [x] Created the GitHub repository;
@@ -21,10 +21,11 @@
 - [x] Calculate monthly cohort retention;
 - [x] Analyze overall cohort retention trends;
 - [x] Compare complete cohorts by first-month retention;
-- [x] Calculate repeat purchase metrics.
+- [x] Calculate repeat purchase metrics;
+- [x] Analyze revenue by cohort.
 
 ## Current Tasks
-- [ ] Analyze revenue by cohort.
+- [ ] Prepare the analysis data for Tableau.
 
 ## Planned Work
 - [ ] Build the Tableau dashboard;
