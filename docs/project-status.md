@@ -2,7 +2,8 @@
 
 **Status:** In Progress  
 **Current Phase:** Tableau dashboard development  
-**Last Updated:** September 17, 2026  
+**Last Updated:** September 18, 2026  
+
 
 ## Completed
 - [x] Created the GitHub repository;
@@ -31,7 +32,7 @@
 
 
 ## Planned Work
-- [ ] Build the Tableau dashboard;
 - [ ] Document business insights;
 - [ ] Complete the final README;
 - [ ] Add dashboard screenshots.
+
