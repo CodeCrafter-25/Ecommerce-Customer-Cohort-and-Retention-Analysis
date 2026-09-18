@@ -1,7 +1,6 @@
 # Dataset
 
 ## Source
-
 - **Dataset:** Online Retail II
 - **Provider:** UCI Machine Learning Repository
 - **Creator:** Daqing Chen
@@ -29,8 +28,8 @@ Online Retail II contains real transaction data from a UK-based non-store online
 | `Country`     | Customer’s country of residence.                                         |
 
 
-## Planned Use
 
+## Planned Use
 **The dataset will be used to:**
 - identify each customer’s first purchase month;
 - create monthly customer cohorts;
@@ -39,6 +38,7 @@ Online Retail II contains real transaction data from a UK-based non-store online
 - measure repeat purchase behavior;
 - analyze revenue by cohort;
 - calculate the time between the first and second purchase.
+
 
 ## Data Quality Notes
 **The initial data review should include:**
@@ -51,6 +51,7 @@ Online Retail II contains real transaction data from a UK-based non-store online
 
 **Revenue will be calculated as:** *`Revenue = Quantity × Price`*
 
+
 ## Prepared Files
 **The original Excel workbook was divided into two CSV files for loading into BigQuery:**
 - `online_retail_2009_2010.csv`
@@ -59,6 +60,15 @@ Online Retail II contains real transaction data from a UK-based non-store online
 The files preserve the original workbook structure and column names. They will be combined in BigQuery before completing the remaining data quality checks.
 
 
-## Repository Storage
+## Tableau-Ready Datasets
 
+| File | Data Level | Rows | Purpose |
+|---|---|---:|---|
+| `tableau_cohort_metrics.csv` | Cohort and activity month | 325 | Cohort retention heatmap, revenue trends, cohort comparison, and cumulative revenue analysis |
+| `tableau_customer_metrics.csv` | Individual customer | 5,878 | Repeat purchase rate, customer type, order frequency, revenue, and time to second purchase |
+
+These processed datasets were generated in BigQuery from the cleaned Online Retail II data. They are used as separate Tableau data sources because they have different levels of detail.
+
+
+## Repository Storage
 The original Excel file is not stored in this repository because of its size. It can be downloaded from the official UCI Machine Learning Repository using the source link above.
