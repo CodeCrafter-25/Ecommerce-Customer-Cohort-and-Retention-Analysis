@@ -2,7 +2,7 @@
 
 **Status:** In Progress  
 **Current Phase:** Tableau dashboard development  
-**Last Updated:** September 18, 2026  
+**Last Updated:** September 19, 2026    
 
 
 ## Completed
@@ -24,11 +24,19 @@
 - [x] Compare complete cohorts by first-month retention;
 - [x] Calculate repeat purchase metrics;
 - [x] Analyze revenue by cohort;
-- [x] Prepare the analysis data for Tableau.
+- [x] Prepare the analysis data for Tableau
+- [x] Prepared Tableau-ready cohort and customer metrics
+- [x] Connected cohort metrics data to Tableau
+- [x] Created the Cohort Retention Heatmap
+- [x] Applied the complete-observation filter
+- [x] Validated cohort retention values in Tableau
 
 
 ## Current Tasks
-- [ ] Build the Tableau dashboard.
+- [ ] Create the monthly retention trend chart
+- [ ] Connect customer metrics data to Tableau
+- [ ] Create customer KPI cards
+- [ ] Assemble the final Tableau dashboard
 
 
 ## Planned Work
