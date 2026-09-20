@@ -2,7 +2,7 @@
 
 **Status:** In Progress  
 **Current Phase:** Tableau dashboard development  
-**Last Updated:** September 19, 2026    
+**Last Updated:** September 20, 2026    
 
 
 ## Completed
@@ -30,7 +30,8 @@
 - [x] Created the Cohort Retention Heatmap
 - [x] Applied the complete-observation filter
 - [x] Validated cohort retention values in Tableau
-
+- [x] Created the Monthly Retention Trend chart
+- [x] Calculated weighted retention across completed cohort observations
 
 ## Current Tasks
 - [ ] Create the monthly retention trend chart
