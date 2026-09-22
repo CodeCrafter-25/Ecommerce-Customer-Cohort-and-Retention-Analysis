@@ -2,7 +2,7 @@
 
 **Status:** In Progress  
 **Current Phase:** Tableau dashboard development  
-**Last Updated:** September 21, 2026    
+**Last Updated:** September 22, 2026    
 
 
 ## Completed
@@ -35,6 +35,9 @@
 - [x] Created the Monthly Retention Trend chart
 - [x] Connected customer metrics data to Tableau
 - [x] Created the Total Customers KPI card
+- [x] Created the Repeat Customers KPI card
+- [x] Created the Repeat Purchase Rate KPI card
+- [x] Created the Average Days to Second Purchase KPI card
 
 
 ## Current Tasks
