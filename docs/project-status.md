@@ -38,6 +38,11 @@
 - [x] Created the Repeat Customers KPI card
 - [x] Created the Repeat Purchase Rate KPI card
 - [x] Created the Average Days to Second Purchase KPI card
+- [x] Created the initial Tableau dashboard layout
+- [x] Added customer KPI cards to the dashboard
+- [x] Added the cohort retention heatmap
+- [x] Added the monthly retention trend
+
 
 
 ## Current Tasks
