@@ -2,7 +2,7 @@
 
 **Status:** In Progress  
 **Current Phase:** Tableau dashboard development  
-**Last Updated:** September 24, 2026    
+**Last Updated:** September 25, 2026    
 
 
 ## Completed
@@ -44,6 +44,9 @@
 - [x] Added the monthly retention trend
 - [x] Created the 12-month cumulative revenue per customer chart
 - [x] Added cohort revenue analysis to the Tableau dashboard
+- [x] Standardized the Tableau dashboard formatting
+- [x] Added informative tooltips to the retention visualizations
+- [x] Added an informative tooltip to the cohort revenue chart
 
 
 ## Current Tasks
