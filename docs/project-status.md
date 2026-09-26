@@ -2,7 +2,7 @@
 
 **Status:** In Progress  
 **Current Phase:** Tableau dashboard development  
-**Last Updated:** September 25, 2026    
+**Last Updated:** September 26, 2026    
 
 
 ## Completed
@@ -32,7 +32,6 @@
 - [x] Validated cohort retention values in Tableau
 - [x] Created the Monthly Retention Trend chart
 - [x] Calculated weighted retention across completed cohort observations
-- [x] Created the Monthly Retention Trend chart
 - [x] Connected customer metrics data to Tableau
 - [x] Created the Total Customers KPI card
 - [x] Created the Repeat Customers KPI card
@@ -50,10 +49,12 @@
 
 
 ## Current Tasks
-- [ ] Create the monthly retention trend chart
-- [ ] Connect customer metrics data to Tableau
-- [ ] Create customer KPI cards
-- [ ] Assemble the final Tableau dashboard
+- [x] Document business insights
+- [ ] Complete the final project README
+- [ ] Publish the dashboard to Tableau Public
+- [ ] Add the Tableau Public link and final dashboard screenshot
+- [ ] Add the Tableau workbook to the repository
+- [ ] Remove temporary placeholder files
 
 
 ## Planned Work
