@@ -46,7 +46,7 @@
 - [x] Standardized the Tableau dashboard formatting
 - [x] Added informative tooltips to the retention visualizations
 - [x] Added an informative tooltip to the cohort revenue chart
-- [x] Started the README file for the final project
+- [x] Update the README file for the final project
 
 
 ## Current Tasks
