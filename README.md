@@ -105,3 +105,49 @@ After cleaning, the analytical dataset contained:
 | Maximum transaction date | 2011-12-09 |
 | Remaining quality issues | 0 |
 
+
+## Analysis Methodology
+
+### 1. Customer cohort assignment
+
+Each customer was assigned to a monthly cohort based on the month of their first valid purchase.
+
+```text
+Cohort Month = Month of Customer's First Purchase
+```
+
+### 2. Cohort index
+
+The cohort index represents the number of months between the acquisition month and the activity month.
+
+```text
+Cohort Index 0 = Acquisition Month
+Cohort Index 1 = First Month After Acquisition
+Cohort Index 2 = Second Month After Acquisition
+```
+
+### 3. Retention rate
+
+Monthly retention was calculated as:
+
+```text
+Retention Rate =
+Retained Customers / Original Cohort Size
+```
+
+### 4. Repeat purchase analysis
+
+A repeat customer was defined as a customer with at least two unique valid invoices.
+
+The analysis also measured the number of days between each customer’s first and second purchase.
+
+### 5. Cohort revenue analysis
+
+Revenue was analyzed by cohort and activity month using:
+
+- cohort revenue;
+- revenue per acquired customer;
+- revenue per retained customer;
+- cumulative cohort revenue;
+- cumulative revenue per customer.
+
