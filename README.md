@@ -220,3 +220,59 @@ The 2009-12 cohort generated approximately **£5,316.65 in cumulative revenue pe
 This demonstrates the long-term financial value of retaining customers after their initial purchase.
 
 Additional findings are available in [`docs/business-insights.md`](docs/business-insights.md).
+
+
+Business Recommendations
+
+1. Focus retention activity on the first 30 days after acquisition.
+2. Continue customer follow-up for at least 90 days.
+3. Create targeted campaigns for one-time customers.
+4. Investigate the product mix and customer characteristics of the strongest cohorts.
+5. Examine cohorts with unusually low Month-1 retention.
+6. Track both customer retention and cumulative revenue.
+7. Compare future cohorts against the historical Month-1 retention benchmark.
+
+Tableau Dashboard
+
+The Tableau dashboard contains:
+
+- total customer KPI;
+- repeat customer KPI;
+- repeat purchase rate KPI;
+- average days to second purchase KPI;
+- customer cohort retention heatmap;
+- weighted monthly retention trend;
+- 12-month cumulative revenue per customer comparison.
+
+Tableau Public
+
+Interactive dashboard: Coming soon
+
+Dashboard Visualizations
+
+Cohort Retention Heatmap
+
+"Cohort Retention Heatmap" (images/cohort-retention-heatmap.png)
+
+Monthly Retention Trend
+
+"Monthly Retention Trend" (images/monthly-retention-trend.png)
+
+SQL Workflow
+
+The SQL analysis was completed in Google BigQuery.
+
+File| Purpose
+""01_combine_raw_tables.sql"" (sql/01_combine_raw_tables.sql)| Combines the two source-period tables
+""02_profile_raw_data.sql"" (sql/02_profile_raw_data.sql)| Profiles the raw data and identifies quality issues
+""03_clean_retail_data.sql"" (sql/03_clean_retail_data.sql)| Cleans, converts, filters, and validates the transaction data
+""04_create_customer_cohort_base.sql"" (sql/04_create_customer_cohort_base.sql)| Assigns customers to cohorts and creates monthly customer activity
+""05_calculate_monthly_retention.sql"" (sql/05_calculate_monthly_retention.sql)| Calculates monthly cohort retention
+""06_analyze_cohort_retention.sql"" (sql/06_analyze_cohort_retention.sql)| Analyzes overall weighted retention trends
+""07_compare_cohort_performance.sql"" (sql/07_compare_cohort_performance.sql)| Compares cohorts using Month-1 retention
+""08_calculate_repeat_purchase_metrics.sql"" (sql/08_calculate_repeat_purchase_metrics.sql)| Calculates repeat purchase behaviour
+""09_analyze_revenue_by_cohort.sql"" (sql/09_analyze_revenue_by_cohort.sql)| Calculates cohort revenue metrics
+""10_create_tableau_datasets.sql"" (sql/10_create_tableau_datasets.sql)| Creates and validates Tableau-ready datasets
+
+
+
