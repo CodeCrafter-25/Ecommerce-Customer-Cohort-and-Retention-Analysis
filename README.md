@@ -310,6 +310,41 @@ Ecommerce-Customer-Cohort-and-Retention-Analysis/
 - **Microsoft Excel** — initial file review and CSV preparation
 - **GitHub** — project documentation and version control
 
+## Analytical Limitations
+
+- Transactions without a customer identifier were excluded because they could not be assigned to a cohort.
+- Cancelled transactions and non-positive quantities or prices were excluded.
+- The first observed cohort may include customers whose purchasing history began before the dataset period.
+- The final month of the dataset was incomplete and was excluded from complete-period comparisons.
+- Later cohort-index periods contain fewer observable cohorts.
+- The findings identify historical patterns and associations but do not establish causal relationships.
+
+## How to Reproduce the Analysis
+
+1. Download the Online Retail II dataset from the UCI Machine Learning Repository.
+2. Convert both Excel worksheets into CSV files.
+3. Import the CSV files into Google BigQuery.
+4. Update the project and dataset references in the SQL scripts if necessary.
+5. Run the SQL files in numerical order from `01` to `10`.
+6. Export the Tableau-ready tables to CSV.
+7. Connect the exported files to Tableau.
+8. Build or review the cohort retention dashboard.
+
+## Project Status
+
+The SQL analysis and initial Tableau dashboard have been completed.
+
+Remaining tasks:
+
+- publish the dashboard to Tableau Public;
+- add the Tableau Public link;
+- add the packaged Tableau workbook;
+- add the final dashboard screenshot;
+- remove temporary placeholder files.
+
+For detailed progress, see [`docs/project-status.md`](docs/project-status.md).
+
+## License
 
 This project is licensed under the [MIT License](LICENSE).
 
