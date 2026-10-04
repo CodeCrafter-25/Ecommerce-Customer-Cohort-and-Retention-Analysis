@@ -233,7 +233,7 @@ The Tableau dashboard contains:
 
 ### Tableau Public
 
-**Interactive dashboard:** [View on Tableau Public]((https://public.tableau.com/views/Project4_17898482456310/CustomerRetentionDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+**Interactive dashboard:** [View on Tableau Public](https://public.tableau.com/views/Project4_17898482456310/CustomerRetentionDashboard)
 
 ### Dashboard Visualizations
 
