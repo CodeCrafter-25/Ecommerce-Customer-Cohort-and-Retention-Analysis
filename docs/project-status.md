@@ -2,7 +2,7 @@
 
 **Status:** In Progress  
 **Current Phase:** Project finalization and publication   
-**Last Updated:** October 3, 2026    
+**Last Updated:** October 4, 2026    
 
 
 ## Completed
@@ -53,7 +53,7 @@
 - [x] Document business insights
 - [x] Complete the final project README
 - [x] Publish the dashboard to Tableau Public
-- [ ] Add the Tableau Public link and final dashboard screenshot
+- [x] Add the Tableau Public link and final dashboard screenshot
 - [ ] Add the Tableau workbook to the repository
 - [ ] Remove temporary placeholder files
 
