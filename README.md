@@ -4,7 +4,7 @@ An end-to-end customer retention analysis using **SQL, Google BigQuery, and Tabl
 
 The project examines customer purchasing behaviour, monthly cohort retention, repeat purchases, and revenue development using transactional data from an online retailer.
 
-![Customer Retention Dashboard](images/customer-retention-dashboard-v1.png)
+![Customer Retention Dashboard](images/customer-retention-dashboard-final.png)
 
 ## Project Overview
 
