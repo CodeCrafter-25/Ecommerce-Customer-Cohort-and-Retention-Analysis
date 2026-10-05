@@ -1,9 +1,10 @@
 # Project Status — Ecommerce Customer Cohort & Retention
 
-**Status:** In Progress  
-**Current Phase:** Project finalization and publication   
-**Last Updated:** October 4, 2026    
-
+**Status:** Completed  
+**Current Phase:** Project completed  
+**Last Updated:** October 5, 2026 
+**Completed — October 5, 2026**     
+The SQL analysis, project documentation, Tableau dashboard, Tableau Public publication, and repository preparation have been completed.
 
 ## Completed
 - [x] Created the GitHub repository
@@ -47,15 +48,10 @@
 - [x] Added informative tooltips to the retention visualizations
 - [x] Added an informative tooltip to the cohort revenue chart
 - [x] Update the README file for the final project
-
-
-## Current Tasks
 - [x] Document business insights
 - [x] Complete the final project README
 - [x] Publish the dashboard to Tableau Public
 - [x] Add the Tableau Public link and final dashboard screenshot
-- [ ] Add the Tableau workbook to the repository
-- [ ] Remove temporary placeholder files
-
-
+- [x] Add the Tableau workbook to the repository
+- [x] Remove temporary placeholder files
 
