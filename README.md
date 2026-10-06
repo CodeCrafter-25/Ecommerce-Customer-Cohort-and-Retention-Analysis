@@ -305,7 +305,7 @@ Ecommerce-Customer-Cohort-and-Retention-Analysis/
 │
 ├── images/
 │   ├── cohort-retention-heatmap.png
-│   ├── customer-retention-dashboard-draft.png
+│   ├── customer-retention-dashboard-final.png
 │   └── monthly-retention-trend.png
 │
 ├── sql/
