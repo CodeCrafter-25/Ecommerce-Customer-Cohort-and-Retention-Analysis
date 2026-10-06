@@ -29,8 +29,8 @@ Online Retail II contains real transaction data from a UK-based non-store online
 
 
 
-## Planned Use
-**The dataset will be used to:**
+## Analysis Use
+**The dataset was used to:**
 - identify each customer’s first purchase month;
 - create monthly customer cohorts;
 - calculate cohort size;
@@ -57,7 +57,7 @@ Online Retail II contains real transaction data from a UK-based non-store online
 - `online_retail_2009_2010.csv`
 - `online_retail_2010_2011.csv`
 
-The files preserve the original workbook structure and column names. They will be combined in BigQuery before completing the remaining data quality checks.
+The files preserve the original workbook structure and column names. The files were combined in BigQuery before the data quality review and cleaning process.
 
 
 ## Tableau-Ready Datasets
