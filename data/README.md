@@ -41,7 +41,7 @@ Online Retail II contains real transaction data from a UK-based non-store online
 
 
 ## Data Quality Notes
-**The initial data review should include:**
+**The initial data review included:**
 - missing `Customer ID` values;
 - cancelled transactions;
 - zero or negative quantities;
@@ -49,7 +49,7 @@ Online Retail II contains real transaction data from a UK-based non-store online
 - duplicate records;
 - invalid transaction dates.
 
-**Revenue will be calculated as:** *`Revenue = Quantity × Price`*
+**Revenue was calculated as:** *`Revenue = Quantity × Price`*
 
 
 ## Prepared Files
